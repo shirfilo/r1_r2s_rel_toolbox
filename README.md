@@ -3,7 +3,9 @@
 **r1_r2s_relaxivity** is a software package designed to calculate the r1-r2* relaxivities. The software is described in the following manuscript:
 "Uncovering molecular iron compounds in the living human brain."
 
+```
 example= r1_r2s_relaxivity_run(R1_path,R2s_path,Seg_path,1,saveat_path,{'par_max',0.5,'par_min',0.1,'Parameter_str','R1'})
+```
 
 For more information, please contact: 
 
