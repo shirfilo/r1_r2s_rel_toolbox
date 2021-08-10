@@ -4,7 +4,7 @@
 "Uncovering molecular iron compounds in the living human brain."
 
 ```
-example= r1_r2s_relaxivity_run(R1_path,R2s_path,Seg_path,1,saveat_path,{'par_max',0.5,'par_min',0.1,'Parameter_str','R1'})
+example= r1_r2s_relaxivity_run(R1_path,R2s_path,Seg_path,0,[],{'R1_max',1.5,'R1_min',0.2})
 ```
 
 For more information, please contact: 
