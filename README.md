@@ -15,7 +15,7 @@ For more information, please contact:
 
 1) R1_path:   Path to a Nifti of a R1 map (in units [1/sec]).
 
-2) TV_path:   Path to a Nifti of a R2* map (in **units [1/sec]**, with **the same resolusion and in the same space** as the R1 map).
+2) R2s_path:   Path to a Nifti of a R2* map (in **units [1/sec]**, with **the same resolusion and in the same space** as the R1 map).
 
 3) Seg_path:   Path to a Nifti of a brain segmentation or a ROI mask (with **the same resolusion and in the same space** as the R1 map). The software will calculate the r1-r2* relaxivities for all ROIs (with lables other than zero) in the segmentation file.
 
