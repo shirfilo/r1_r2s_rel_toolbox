@@ -1,4 +1,4 @@
-# R1_R2s_rel #
+# r1_r2s_rel_toolbox #
 
 **r1_r2s_relaxivity** is a software package designed to calculate the r1-r2* relaxivities. The software is described in the following manuscript:
 "Uncovering molecular iron compounds in the living human brain."
