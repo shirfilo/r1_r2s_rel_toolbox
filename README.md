@@ -46,7 +46,7 @@ In this repository you can find the all the Niftis needed for a test run of the 
 *  Segmentation file with 3 ROIs (r1_r2s_rel_toolbox/Example_data/segmentation.nii.gz)   
 
 For a test run of the software add the r1_r2s_rel_toolbox repository to your path and use the following matlab code:
-
+```
 R1_path='r1_r2s_rel_toolbox/Example_data/R1_map_Wlin.nii.gz';
 
 R2s_path='r1_r2s_rel_toolbox/Example_data/R2s_map.nii.gz';
@@ -54,6 +54,7 @@ R2s_path='r1_r2s_rel_toolbox/Example_data/R2s_map.nii.gz';
 Seg_path='r1_r2s_rel_toolbox/Example_data/segmentation.nii.gz';
 
 example= r1_r2s_relaxivity_run(R1_path,R2s_path,Seg_path,0,[],{'R1_max',1.5,'R1_min',0.2})
+```
 
 ## SOFTWARE REQUIREMENTS ###
   
