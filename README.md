@@ -17,7 +17,7 @@ For more information, please contact:
 
 2) TV_path:   Path to a Nifti of a R2* map (in **units [1/sec]**, with **the same resolusion and in the same space** as the R1 map).
 
-3) Seg_path:   Path to a Nifti of a brain segmentation or a ROI mask (with **the same resolusion and in the same space** as the qMRI map). The software will calculate the r1-r2* relaxivities for all ROIs (with lables other than zero) in the segmentation file.
+3) Seg_path:   Path to a Nifti of a brain segmentation or a ROI mask (with **the same resolusion and in the same space** as the R1 map). The software will calculate the r1-r2* relaxivities for all ROIs (with lables other than zero) in the segmentation file.
 
 4) save_fig:   1/0 depending on whether or the user would like to save the output (1) or not (0).
 
@@ -41,7 +41,7 @@ This function creates and saves the r1_r2s_relaxivity strucure to the 'saveat' d
 In this repository you can find the all the Niftis needed for a test run of the r1_r2s_relaxivity software package:
 *  R1 map (r1_r2s_rel_toolbox/Example_data/R1_map_Wlin.nii.gz)
 *  R2* map (r1_r2s_rel_toolbox/Example_data/R2s_map.nii.gz)
-*  Segmentation file with 5 ROIs (r1_r2s_rel_toolbox/Example_data/segmentation.nii.gz)   
+*  Segmentation file with 3 ROIs (r1_r2s_rel_toolbox/Example_data/segmentation.nii.gz)   
 
 For a test run of the software add the r1_r2s_rel_toolbox repository to your path and use the following matlab code:
 
