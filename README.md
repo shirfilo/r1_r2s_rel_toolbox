@@ -55,6 +55,7 @@ Seg_path='r1_r2s_rel_toolbox/Example_data/segmentation.nii.gz';
 
 example= r1_r2s_relaxivity_run(R1_path,R2s_path,Seg_path,0,[],{'R1_max',1.5,'R1_min',0.2})
 ```
+The expected output for this data can be found in the expected_output directory. 
 
 ## SOFTWARE REQUIREMENTS ###
   
